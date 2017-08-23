@@ -236,6 +236,7 @@ only screen and (min-device-pixel-ratio: 1.5){
   background-color: white;
   border: none;
   outline: none;
+  margin-bottom: 15px;
 }
 .portfolio_btn:hover, .portfolio_btn:focus {
   background-position: 0 -10px;
