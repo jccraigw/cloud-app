@@ -119,9 +119,17 @@ header .header-content .header-content-inner p {
  
 
 }
+#portfolio_img3{
+
+  margin-top: -65px;
+}
+#portfolio_img2{
+
+   margin-top: -25px;
+}
 .port{
 
-  height: 50vh;
+  height: 100vh;
   border: 1px solid rgb(85, 85, 85);;
 }
 
@@ -203,20 +211,23 @@ only screen and (min-device-pixel-ratio: 1.5){
 .img-responsive{
 
   height: auto; 
-    width: auto;
+  width: auto;
+  margin: 0 auto;
+  max-height: 400px; 
    
-    max-height: 300px; 
-    margin-top: 15px;
-    margin-left: 50px;
+    
 }
 .img-responsive_laptop{
 
-  height: auto; 
+    height: auto; 
     width: auto;
-   max-width: 400px;
-    max-height: 300px; 
-    margin-top: 30px;
-    margin-right:200px;
+   
+    max-height: 480px; 
+   
+    margin: 0 auto;
+    padding-right: 60px;
+   
+ 
 }
 .container-fluid{
 
@@ -225,8 +236,38 @@ only screen and (min-device-pixel-ratio: 1.5){
 .portfolio-box-caption{
   display: inline;
 
-  margin-left: 100px;
+  margin-left: 0px;
   margin-top: 10px;
-  float: right;
-  margin-right: 100px;
+  
+  margin-right: 50px;
+}
+.portfolio_btn{
+
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.portfolio_btn:hover, .portfolio_btn:focus {
+    background-position: 0 -10px;
+      outline: none;
+      background:white;
+}
+
+button:hover, button:focus {
+   
+
+      background:white;
+      text-decoration: none;
+}
+a:hover, a:focus{
+   
+    text-decoration:none;
+    outline: none;
+    background-color: white;
+
+
+}
+.project_title{
+
+  font-size: 25px;
 }
