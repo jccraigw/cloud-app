@@ -62,14 +62,30 @@ $(document).ready(function () {
     $('#portfolio_img3').attr('src', 'images/portfolio/thumbnails/nologo_5.png'); 
   });
 
-   
-});
+    //whassit
+     $('#wt_img1_btn').on('click', function(){
+    $('#portfolio_img4').attr('src', 'images/portfolio/thumbnails/whassit.png'); 
+  });
+  $('#wt_img2_btn').on('click', function(){
+    $('#portfolio_img4').attr('src', 'images/portfolio/thumbnails/whassit_2.png'); 
+  });
+  $('#wt_img4_btn').on('click', function(){
+    $('#portfolio_img4').attr('src', 'images/portfolio/thumbnails/whassit_4.png'); 
+  });
+  $('#wt_img5_btn').on('click', function(){
+    $('#portfolio_img4').attr('src', 'images/portfolio/thumbnails/whassit_5.png'); 
+  });
 
- $('a').click(function(){
+
+   $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top-50
     }, 500);
 
  
 });
+   
+});
+
+
 

@@ -4,11 +4,11 @@
 // }
 body{
 
-	    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+	width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 
 }
 .navbar-brand{
@@ -16,17 +16,16 @@ body{
   font-size: 30px;
 }
 .navbar{
-
   color: rgb(85, 85, 85);
 }
 .navbar-default {
-    background-color: transparent;
-    border-color: rgb(85, 85, 85);
+  background-color: transparent;
+  border-color: rgb(85, 85, 85);
 
-  }
+}
 
- .navbar-default .nav > li > a {
-color: rgb(85, 85, 85);
+.navbar-default .nav > li > a {
+  color: rgb(85, 85, 85);
   
 }
 .navbar-fixed-top.scrolled {
@@ -96,54 +95,52 @@ header .header-content .header-content-inner p {
 }
 #about{
   border-top: 1px solid rgb(85, 85, 85);
-  height: 100vh;
+ 
   color: rgb(85, 85, 85);
 }
 #skills{
-   border-top: 1px solid rgb(85, 85, 85);
+  border-top: 1px solid rgb(85, 85, 85);
   // height: 100vh;
   color: rgb(85, 85, 85);
 }
 
-
 #portfolio{
-
  
- margin-top: 10px;
- color: rgb(85, 85, 85);
+  margin-top: 10px;
+  color: rgb(85, 85, 85);
 
 }
 
 .portfolio_img{
 
- 
-
 }
 #portfolio_img3{
 
-  margin-top: -65px;
+  margin-top: -30px;
 }
 #portfolio_img2{
 
-   margin-top: -25px;
+  margin-top: -30px;
+}
+#portfolio_img4{
+
+  margin-top: -30px;
 }
 .port{
 
-  height: 100vh;
+  
   border: 1px solid rgb(85, 85, 85);;
 }
 
 .padding-0{
-    padding: 0;
+  padding: 0;
 }
 #contact{
 
 
   color: rgb(85, 85, 85);
- height: 50vh;
+  height: 50vh;
 }
-
-
 
 header a span {
   position: absolute;
@@ -193,19 +190,16 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5){
 
-  html,
-  body{
+  html,body{
     width:100%;
     overflow-x:hidden;
   }
 
   #me{
-
     margin-left: 0;
     position: inherit;
 
   }
-
 }
 
 .img-responsive{
@@ -219,13 +213,11 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 .img-responsive_laptop{
 
-    height: auto; 
-    width: auto;
-   
-    max-height: 480px; 
-   
-    margin: 0 auto;
-    padding-right: 60px;
+  height: auto; 
+  width: auto;  
+  max-height: 480px; 
+  margin: 0 auto;
+  padding-right: 60px;
    
  
 }
@@ -235,10 +227,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 .portfolio-box-caption{
   display: inline;
-
   margin-left: 0px;
   margin-top: 10px;
-  
   margin-right: 50px;
 }
 .portfolio_btn{
@@ -248,26 +238,34 @@ only screen and (min-device-pixel-ratio: 1.5){
   outline: none;
 }
 .portfolio_btn:hover, .portfolio_btn:focus {
-    background-position: 0 -10px;
-      outline: none;
-      background:white;
+  background-position: 0 -10px;
+  outline: none;
+  background:white;
 }
 
 button:hover, button:focus {
-   
-
-      background:white;
-      text-decoration: none;
+  background:white;
+  color: rgb(51, 122, 183);
+  text-decoration: none;
 }
-a:hover, a:focus{
-   
-    text-decoration:none;
-    outline: none;
-    background-color: white;
-
-
+a:hover, a:focus{   
+  text-decoration:none;
+  outline: none;
+  background-color: white;
 }
 .project_title{
 
   font-size: 25px;
+}
+i{
+
+  font-size: 60px;
+}
+.about_p, .about_p2{
+
+  text-align: left;
+}
+.about_p2{
+
+  text-indent: 50px;
 }
